@@ -41,9 +41,9 @@ the game would track the movement of M5 stack and cut fruits in the game.The pap
 
 Then, we found that maybe this game is improper as it is not our own idea and therefore, we brought the idea to build a   
 really open game platform. Any game developers can register the accounts on our platform and are freely allowed to upload 
-their games and gamers can choose any of games to play. And maybe make a combination of a live broadcast function which has  become quite popular in recent years.
+their games and gamers can choose any of games to play. And maybe make a combination of a live broadcast function which has  become quite popular in recent years.      
 However, through rounds of discussion and with the problems we met in the designing process, we found that it is too 
-difficult for us to realize such a platform. Hence, we went back to our original idea and designed a game BIGEATER.
+difficult for us to realize such a platform. Hence, we went back to our original idea and designed a game BIGEATER.    
 There are five conveyor belts for food. The character stands at the bottom of the conveyor belt and can only move left and 
 right which is controlled by M5 stack. What’s more, there would be bonus gifts showed beyond the conveyor belts randomly, 
 the character can click the button on M5 stack to turn into shoot mode and would get the bonus gift if the character 
@@ -58,16 +58,6 @@ The structure of our project is shown as update *fig.2*:
 ![uml](./design_GUI/SE_UML.png)
 
 ## <span id="LinkToPart2">System Implementation
-
-Because of the unforseen circumstances of COVID-19, we have to work together online. So the M5 Stack holder,
-Shunyi Zhao do the works about M5 Stack and the communications between the M5 Stack and desktop application. Yuxuan Qiu, Ben 
-Jin and Rao Hu completed the main functions of desktop application. Kehan Du and HoCheung Lee designed the layout of our 
-website and developed the web pages. All group members are collaborators of this repository. They could push works they done 
-to the dev branch of this repository directly without review of changes in file, but a pull request from dev branch to master 
-branch is needed. We have an online meeting on Skype for Business every week to see what we did in the past week and make it 
-clear what we are going to do in the next week. Also, our team uses a group chat on social media to keep in touch. When there 
-are unsolvable problems, we would discuss in the group chat and try to figure them out as soon as possible. We work together 
-quite well, everyone makes contributions and our teamwork ensures the smooth completion of this project.
 
 
 ### The works of IoT device, development of processing programme and development of Web are broken down to some simple problems:
@@ -115,14 +105,15 @@ software some educational significance.
 Basically, our project is a game with interactive and data analysis functions. Due to time and knowledge limitation, we didn’t 
 fulfill all the ideal functions we want. In this game, we are not only aimed at release people’s pressure and have fun, but 
 also, we would like to diffuse healthy diet and help our users lead a fit life. According to World Health Organization, 39% of 
-adults aged 18 years and over were over-weighted in 2016 and 38 million children under age of 5 were obese in 2019. Therefore, 
-we believe our project can be educational to make some changes to this situation and game could be a better way to take effect 
-compared with telling pure principles. For example, parents who can act as interactive player and children who can act as 
-gamers could use our BIGEATER together to help kids form good diet habit. Also, health management organizations can implement 
-our game to assist their members. What’s more, our data analysis system is open for everyone who register in our system. 
-Although our analysis is simple currently, we would love to develop more advanced analysis algorithm and provide more diverse 
-data. Then, the data analysis system can be more significant and we hope it could provide useful information for analysts who 
-work in game industry or health management industry.
+adults aged 18 years and over were over-weighted in 2016 and 38 million children under age of 5 were obese in 2019.    
+Therefore, we believe our project can be educational to make some changes to this situation and game could be a better way to 
+take effect compared with telling pure principles. For example, parents who can act as interactive player and children who can 
+act as gamers could use our BIGEATER together to help kids form good diet habit. Also, health management organizations can 
+implement our game to assist their members. What’s more, our data analysis system is open for everyone who register in our 
+system. Although our analysis is simple currently, we would love to develop more advanced analysis algorithm and provide more 
+diverse data. Then, the data analysis system can be more significant and we hope it could provide useful information for 
+analysts who work in game industry or health management industry.
+
 ## <span id="LinkToPart3">Project Evaluation
 Group memebers test the part they made by themselves, and the M5 Stack holder test the whole system.
 
@@ -135,6 +126,7 @@ Group memebers test the part they made by themselves, and the M5 Stack holder te
 ### The disadventages of our projects are shown as below
 1. The control of character ....
 2. xxxx
+
 ### Future Expectation
 For the future, we believe there is still a lot of improvement room for our software as we haven’t realized all the ideal 
 functions we want. First of all, we would like to realize the live broadcast function so that interactive player can watch the 
@@ -143,3 +135,20 @@ years, we would like to combine them and we think that it is a new and interesti
 Secondly, we want to build a game platform which allows game developers to upload their won games. Continuous innovation is a 
 key factor in gaming industry, especially for simple and small games where gamers may fell bored easily. Therefore, we would 
 love to provide an open platform for all game developers to show their talents.
+
+### Refelctions
+Because of the unforseen circumstances of COVID-19, we have to work together online. So the M5 Stack holder, Shunyi Zhao do
+the works about M5 Stack and the communications between the M5 Stack and desktop application. Yuxuan Qiu, Ben Jin and Rao Hu 
+completed the main functions of desktop application. Kehan Du and HoCheung Lee designed the layout of our website and 
+developed the web pages. All group members are collaborators of this repository. We can push our own work to the dev branch of 
+this repository directly without review of changes in file, but a pull request from dev branch to master branch is needed. For 
+job allocation, we use Todolist function to choose our own parts, and we can know about the progress of each member’s work 
+through this.
+
+We have an online meeting on Skype for Business every week to see what we did in the past week and make it clear what we are 
+going to do in the next week. Also, our team uses a group chat on social media to keep in touch. When there are unsolvable 
+problems, we would discuss in the group chat and try to figure them out as soon as possible. We work together quite well, 
+everyone makes contributions and our teamwork ensures the smooth completion of this project.
+
+We can’t say we did everything well as there are still some ideal functions we haven’t realized yet. But as the first software 
+project in our life time, as well as under the influence of coronavirus, we have tried our best. 
